@@ -1,3 +1,4 @@
-RewriteEngine On
-RewriteRule ^home\.html$ / [R=301,L]
-RewriteRule ^(.*)/home\.html$ /$1/ [R=301,L]
+Test.
+
+# Set the default handler
+DirectoryIndex index.php home.html home.htm
